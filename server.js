@@ -3,6 +3,7 @@ var app = express();
 var PORT = 3000;
 var path = require("path");
 
+// app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('public'))
 
 app.get('/',function(req,res){     
