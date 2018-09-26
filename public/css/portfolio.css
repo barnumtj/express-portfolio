@@ -21,6 +21,7 @@
     width: 96%;
     margin: auto;
     background-color: white;
+    padding-bottom: 2rem;
 }
 
 
@@ -62,4 +63,8 @@ body {
 
 #reactDiv {
     margin-right: -2rem;
+}
+
+footer {
+    text-align: center;
 }
