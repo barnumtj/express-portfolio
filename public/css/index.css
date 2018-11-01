@@ -47,3 +47,7 @@ body {
     background-size: cover;
     z-index: 0;
 }
+
+footer {
+    text-align: center;
+}
