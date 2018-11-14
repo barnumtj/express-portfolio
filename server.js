@@ -16,4 +16,6 @@ app.get('/',function(req,res){
 app.get('/portfolio', function(req, res){
     res.sendFile(path.join(__dirname+'/views/portfolio.html'))
 })
-app.listen(PORT)
+app.listen(PORT, function(){
+    console.log('app listening on ' +  PORT)
+})
